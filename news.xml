@@ -1,19 +1,41 @@
-<rss xmlns:ns0="http://purl.org/rss/1.0/modules/content/" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
-	<channel>
-		<title>라스트 세이비어스 공지사항</title>
-		<link>https://discord.gg/lastsaviors</link>
-		<description>라스 트 세이비어스의 공식 업데이트 및 공지 RSS 피드</description>
-		<language>ko</language>
-		<lastBuildDate>Fri, 24 Oct 2025 00:40:35 +0900</lastBuildDate>
-		<item>
-			<title># &lt;:lss_logo:1311381282353184859&gt;  [톡톡] 업데이트 후기 &amp; 직업 밸런스 라이브</title>
-			<link>https://discord.com/channels/1247900643645980814/NOTIFICATION_CHANNEL/18957189c3a69aa4d2f8642369069188</link>
-			<guid isPermaLink="false">18957189c3a69aa4d2f8642369069188</guid>
-			<pubDate>Fri, 24 Oct 2025 00:40:35 +0900</pubDate>
-			<author>team@lastsaviors.dev (라스트 세이비어스 운영팀)</author>
-			<description># &lt;:lss_logo:1311381282353184859&gt;  [톡톡] 업데이트 후기 &amp; 직업 밸런스 라이브
-&gt; 안녕하세요, ``라스트 세이비어스``입니다. 금일 톡톡(Talk T</description>
-			<ns0:encoded>&lt;![CDATA[&lt;p&gt;# &lt;:lss_logo:1311381282353184859&gt;  [톡톡] 업데이트 후기 &amp; 직업 밸런스 라이브&lt;br&gt;&gt; 안녕하세요, ``라스트 세이비어스``입니다. 금일 톡톡(Talk Talk) 일정을 안내드립니다.&lt;br&gt;## 1. 톡톡 (Talk Talk)&lt;br&gt;- 톡톡은 디스코드에서 진 행하는 라스트 세이비어스의 소통 라이브입니다.&lt;br&gt;- 업데이트 후기, 운영 방향성, 건의사항 피드백, QnA 등을 공유드리 는 공식적인 자리입니다.&lt;br&gt;## 2. 진행 일정&lt;br&gt;- 10월 23일(목) ``오후 8시 ~ 9시 30분`` (1시간 30분)&lt;br&gt;- 디스코드 스테이지 채널&lt;br&gt;&lt;br&gt;**라스트 세이비어스** 드림.&lt;br&gt;&lt;/p&gt;]]&gt;</ns0:encoded>
-		</item>
-	</channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>라스트 세이비어스 공지사항</title>
+    <link>https://discord.gg/lastsaviors</link>
+    <description>라스트 세이비어스의 공식 업데이트 및 공지 RSS 피드</description>
+    <language>ko</language>
+    <lastBuildDate>Thu, 23 Oct 2025 19:00:00 +0900</lastBuildDate>
+
+    <item>
+      <title>주간 점검 종료 안내</title>
+      <link>https://discord.com/channels/1247900643645980814/1429437545074130994</link>
+      <guid isPermaLink="false">lastsaviors-20251022</guid>
+      <pubDate>Wed, 22 Oct 2025 18:00:00 +0900</pubDate>
+      <author>team@lastsaviors.dev (라스트 세이비어스 운영팀)</author>
+
+      <description>라스트 세이비어스 주간 점검 종료 안내</description>
+
+      <content:encoded><![CDATA[
+        <h2>안녕하세요, <strong>라스트 세이비어스</strong>입니다.</h2>
+        <p>주간점검 종료를 안내드립니다.</p>
+
+        <h3>1. 반영 사항</h3>
+        <ul>
+          <li><a href="https://discord.com/channels/1247900643645980814/1429437545074130994">251022 주간 업데이트</a> 반영</li>
+        </ul>
+
+        <h3>2. 추가 안내 사항</h3>
+        <ul>
+          <li>신규 직업 <a href="https://youtu.be/kwpWsG-ytoE">리퍼</a>가 추가되었습니다.</li>
+          <li><a href="https://discord.com/channels/1247900643645980814/1430434996065140828">공지 채널</a>을 확인해주세요.</li>
+          <li><a href="https://discord.com/channels/1247900643645980814/1393814276359192596">참고 채널</a>도 함께 확인 부탁드립니다.</li>
+        </ul>
+
+        <p>친근한 소통과 더 나은 업데이트로 보답드리겠습니다.<br>
+        <strong>라스트 세이비어스 드림.</strong></p>
+      ]]></content:encoded>
+    </item>
+
+  </channel>
 </rss>
