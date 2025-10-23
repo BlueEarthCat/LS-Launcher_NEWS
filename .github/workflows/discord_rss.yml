@@ -2,9 +2,8 @@ name: Discord RSS Update
 
 on:
   schedule:
-    # 5분마다 확인 (CRON 표현식: 분 시간 일 월 요일)
-    - cron: "*/5 * * * *"
-  workflow_dispatch: # 수동 실행도 가능
+    - cron: "*/5 * * * *" # 5분마다
+  workflow_dispatch: # 수동 실행 가능
 
 jobs:
   update-rss:
@@ -26,7 +25,7 @@ jobs:
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPO_OWNER: ${{ github.repository_owner }}
           GITHUB_REPO_NAME: ${{ github.repository }}
           GITHUB_BRANCH: main
