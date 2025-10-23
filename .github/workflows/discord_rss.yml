@@ -1,0 +1,32 @@
+name: Discord RSS Update
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # 5분마다
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  update-rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 체크아웃 코드
+        uses: actions/checkout@v3
+
+      - name: Node.js 설치
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: 의존성 설치
+        run: npm install
+
+      - name: RSS 업데이트 실행
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPO_OWNER: ${{ github.repository_owner }}
+          GITHUB_REPO_NAME: ${{ github.repository }}
+          GITHUB_BRANCH: master
+        run: node rss_generator.js
